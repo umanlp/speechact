@@ -1,0 +1,67 @@
+2023-10-19 17:21:04,583 Device: cuda
+2023-10-19 17:21:04,583 Merging Rhetorical-question and Question instances into a single Question-All class.
+2023-10-19 17:21:05,451 Loaded input dataframe from input_dataframes/segment_df_document_punc_01_09_2023.pkl.
+2023-10-19 17:21:05,452 Using 'utterance_token_list' column as input to BERT.
+2023-10-19 17:21:05,452 Context mode is set to True.
+2023-10-19 17:21:05,452 Adding context tokens to dataset, this takes several minutes.
+2023-10-19 17:22:23,728 Evaluating 5 fine-tuned models
+2023-10-19 17:22:23,728 Loading fine-tuned model from BERT-context-punc-run-0/
+2023-10-19 17:22:27,497 Evaluation on test set.
+2023-10-19 17:22:41,898 Results:
+F1 per class: {'Accusation': 0.576112412177986, 'Evaluation': 0.8071780436312456, 'Request': 0.8028673835125448, 'Promise': 0.6181818181818182, 'Bad-outcome': 0.3548387096774194, 'Report': 0.7680491551459293, 'Self-representation': 0.2580645161290322, 'Support': 0.6153846153846153, 'Demand': 0.7360406091370559, 'Rejection': 0.6285714285714286, 'Question-All': 0.9680851063829786, 'Expressive': 0.9477351916376306, 'I-S-Humour': 0.0, 'Macro': 0.8249027237354084}
+Micro-F1: 0.780555986954496 / Subset accuracy: 0.7282539682539683 / Hamming loss: 0.032040816326530615
+2023-10-19 17:22:42,945 Loading fine-tuned model from BERT-context-punc-run-1/
+2023-10-19 17:22:45,363 Evaluation on test set.
+2023-10-19 17:22:56,908 Results:
+F1 per class: {'Accusation': 0.5771144278606966, 'Evaluation': 0.8043326345213138, 'Request': 0.8014440433212997, 'Promise': 0.6071428571428572, 'Bad-outcome': 0.4137931034482758, 'Report': 0.7572209211553473, 'Self-representation': 0.2580645161290322, 'Support': 0.42857142857142855, 'Demand': 0.7338129496402879, 'Rejection': 0.6285714285714286, 'Question-All': 0.9574468085106383, 'Expressive': 0.9507042253521126, 'I-S-Humour': 0.0, 'Macro': 0.8369351669941061}
+Micro-F1: 0.7786425902864259 / Subset accuracy: 0.7295238095238096 / Hamming loss: 0.03224489795918367
+2023-10-19 17:22:57,950 Loading fine-tuned model from BERT-context-punc-run-2/
+2023-10-19 17:22:58,627 Evaluation on test set.
+2023-10-19 17:23:10,183 Results:
+F1 per class: {'Accusation': 0.602409638554217, 'Evaluation': 0.8087469628601179, 'Request': 0.7971014492753623, 'Promise': 0.5925925925925926, 'Bad-outcome': 0.3448275862068966, 'Report': 0.7739403453689169, 'Self-representation': 0.3333333333333333, 'Support': 0.5, 'Demand': 0.7614457831325301, 'Rejection': 0.6285714285714286, 'Question-All': 0.9784946236559139, 'Expressive': 0.9469964664310955, 'I-S-Humour': 0.0, 'Macro': 0.8232931726907632}
+Micro-F1: 0.7860588143768478 / Subset accuracy: 0.7336507936507937 / Hamming loss: 0.031179138321995464
+2023-10-19 17:23:11,115 Loading fine-tuned model from BERT-context-punc-run-3/
+2023-10-19 17:23:11,822 Evaluation on test set.
+2023-10-19 17:23:23,464 Results:
+F1 per class: {'Accusation': 0.57356608478803, 'Evaluation': 0.808038808038808, 'Request': 0.8231046931407943, 'Promise': 0.6666666666666666, 'Bad-outcome': 0.33333333333333337, 'Report': 0.7686335403726708, 'Self-representation': 0.2962962962962963, 'Support': 0.1818181818181818, 'Demand': 0.773067331670823, 'Rejection': 0.5454545454545454, 'Question-All': 0.9424083769633508, 'Expressive': 0.9403508771929825, 'I-S-Humour': 0.0, 'Macro': 0.81947261663286}
+Micro-F1: 0.7835437120149604 / Subset accuracy: 0.7358730158730159 / Hamming loss: 0.03149659863945578
+2023-10-19 17:23:24,646 Loading fine-tuned model from BERT-context-punc-run-4/
+2023-10-19 17:23:25,460 Evaluation on test set.
+2023-10-19 17:23:37,146 Results:
+F1 per class: {'Accusation': 0.5605700712589073, 'Evaluation': 0.8079235939158117, 'Request': 0.7898550724637682, 'Promise': 0.5818181818181818, 'Bad-outcome': 0.44444444444444453, 'Report': 0.7639751552795031, 'Self-representation': 0.3225806451612903, 'Support': 0.5, 'Demand': 0.7525252525252526, 'Rejection': 0.5454545454545454, 'Question-All': 0.9574468085106383, 'Expressive': 0.9440559440559442, 'I-S-Humour': 0.0, 'Macro': 0.8088531187122737}
+Micro-F1: 0.7780040733197556 / Subset accuracy: 0.7225396825396826 / Hamming loss: 0.032131519274376415
+2023-10-19 17:23:38,112 F1 scores per class for all runs:
+|      |   Accusation |   Evaluation |   Request |   Promise |   Bad-outcome |    Report |   Self-representation |   Support |   Demand |   Rejection |   Question-All |   Expressive |   I-S-Humour |     Macro |
+|:-----|-------------:|-------------:|----------:|----------:|--------------:|----------:|----------------------:|----------:|---------:|------------:|---------------:|-------------:|-------------:|----------:|
+| 0    |     57.6112  |    80.7178   |  80.2867  |  61.8182  |      35.4839  | 76.8049   |              25.8065  |   61.5385 | 73.6041  |    62.8571  |       96.8085  |    94.7735   |            0 | 82.4903   |
+| 1    |     57.7114  |    80.4333   |  80.1444  |  60.7143  |      41.3793  | 75.7221   |              25.8065  |   42.8571 | 73.3813  |    62.8571  |       95.7447  |    95.0704   |            0 | 83.6935   |
+| 2    |     60.241   |    80.8747   |  79.7101  |  59.2593  |      34.4828  | 77.394    |              33.3333  |   50      | 76.1446  |    62.8571  |       97.8495  |    94.6996   |            0 | 82.3293   |
+| 3    |     57.3566  |    80.8039   |  82.3105  |  66.6667  |      33.3333  | 76.8634   |              29.6296  |   18.1818 | 77.3067  |    54.5455  |       94.2408  |    94.0351   |            0 | 81.9473   |
+| 4    |     56.057   |    80.7924   |  78.9855  |  58.1818  |      44.4444  | 76.3975   |              32.2581  |   50      | 75.2525  |    54.5455  |       95.7447  |    94.4056   |            0 | 80.8853   |
+| mean |     57.7955  |    80.7244   |  80.2875  |  61.328   |      37.8247  | 76.6364   |              29.3668  |   44.5155 | 75.1378  |    59.5325  |       96.0776  |    94.5969   |            0 | 82.2691   |
+| std  |      1.35914 |     0.153837 |   1.10828 |   2.94267 |       4.31918 |  0.556227 |               3.14687 |   14.4648 |  1.49457 |     4.07188 |        1.20574 |     0.351626 |            0 |  0.905534 |
+2023-10-19 17:23:38,120 LaTex table:
+\begin{tabular}{llll}
+\toprule
+ & f1 & precision & recall \\
+\midrule
+Accusation & 57.80 (1.36) & 60.64 (2.24) & 55.28 (1.82) \\
+Evaluation & 80.72 (0.15) & 79.80 (0.61) & 81.68 (0.68) \\
+Request & 80.29 (1.11) & 84.89 (1.11) & 76.16 (1.18) \\
+Promise & 61.33 (2.94) & 95.89 (3.57) & 45.26 (3.87) \\
+Bad-outcome & 37.82 (4.32) & 71.28 (8.82) & 26.05 (4.00) \\
+Report & 76.64 (0.56) & 82.10 (0.94) & 71.87 (0.71) \\
+Self-representation & 29.37 (3.15) & 57.39 (13.24) & 20.00 (2.23) \\
+Support & 44.52 (14.46) & 82.00 (22.27) & 31.11 (10.89) \\
+Demand & 75.14 (1.49) & 76.63 (2.43) & 73.79 (2.21) \\
+Rejection & 59.53 (4.07) & 100.00 (0.00) & 42.50 (4.08) \\
+Question-All & 96.08 (1.21) & 94.00 (1.91) & 98.26 (0.53) \\
+Expressive & 94.60 (0.35) & 94.27 (0.64) & 94.93 (0.53) \\
+I-S-Humour & 0.00 (0.00) & 0.00 (0.00) & 0.00 (0.00) \\
+Macro & 82.27 (0.91) & 81.94 (1.00) & 82.64 (2.00) \\
+\bottomrule
+\end{tabular}
+
+2023-10-19 17:23:38,120 Micro-F1:			averaged: 78.14% / std dev: 0.304
+2023-10-19 17:23:38,120 Subset accuracy:	averaged: 73.0% / std dev: 0.462
+2023-10-19 17:23:38,120 Hamming loss:		averaged: 3.18% / std dev: 0.041
