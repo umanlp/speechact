@@ -116,13 +116,19 @@ The following table explains most of the variables in the .conf files:
 
 ### Setup 
 
-This project was tested with python x.xx.
+This project was tested with python 3.10.
 
-The requirements for speech act classification can be found in the file `segmentation/requirements.txt`.
+The requirements for the speech act segmentation code can be found in the file `segmentation/README.md`.
 
 ### Usage
 
-TODO
+Follow the instructions in `segmentation/README.md` to create a virtual environment and install the required packages.
+Then run the code with:
+
+```
+python src/segmenter.py config/segment.conf
+```
+
 
 ## Analysis
 
