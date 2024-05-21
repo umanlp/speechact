@@ -4,9 +4,28 @@
 This repository contains the code for our paper "How to do politics with words: Investigating speech acts in parliamentary debates".
 The code can be used to replicate results from the paper and access model predictions.
 
-If you use this code, please cite our paper:
+If you use the code or materials in this repository, please cite our paper [How to Do Politics with Words: Investigating Speech Acts in Parliamentary Debates](https://aclanthology.org/2024.lrec-main.727):
 ```
-TODO: bibtex
+@inproceedings{reinig-etal-2024-politics-words,
+    title = "How to Do Politics with Words: Investigating Speech Acts in Parliamentary Debates",
+    author = "Reinig, Ines  and
+      Rehbein, Ines  and
+      Ponzetto, Simone Paolo",
+    editor = "Calzolari, Nicoletta  and
+      Kan, Min-Yen  and
+      Hoste, Veronique  and
+      Lenci, Alessandro  and
+      Sakti, Sakriani  and
+      Xue, Nianwen",
+    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    month = may,
+    year = "2024",
+    address = "Torino, Italy",
+    publisher = "ELRA and ICCL",
+    url = "https://aclanthology.org/2024.lrec-main.727",
+    pages = "8287--8300",
+    abstract = "This paper presents a new perspective on framing through the lens of speech acts and investigates how politicians make use of different pragmatic speech act functions in political debates. To that end, we created a new resource of German parliamentary debates, annotated with fine-grained speech act types. Our hierarchical annotation scheme distinguishes between cooperation and conflict communication, further structured into six subtypes, such as informative, declarative or argumentative-critical speech acts, with 14 fine-grained classes at the lowest level. We present classification baselines on our new data and show that the fine-grained classes in our schema can be predicted with an avg. F1 of around 82.0{\%}. We then use our classifier to analyse the use of speech acts in a large corpus of parliamentary debates over a time span from 2003{--}2023.",
+}
 ```
 
 ## Annotation guidelines
