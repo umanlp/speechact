@@ -59,7 +59,7 @@ python3 speech-act-classification-SVM.py config/svm-speech-act-classification.co
 ### Model and prediction files
 
 We make one run of our best speech act classification model, BERT-large-context-run-x (Micro-F1 reported in table 5 of the paper: 84.01%/81.96% dev/test), publicly available. 
-Due to space constraints in this repository, the model has to be downloaded from the following source: `TODO: link/to/model`
+Due to space constraints in this repository, the model has to be downloaded from the following source: [model](https://data.dws.informatik.uni-mannheim.de/speechact/speech-act-BERT-large-seed42.tgz)
 
 Please place the model's directory directly in this `classification` folder or change the path accordingly in the .conf file.
 
